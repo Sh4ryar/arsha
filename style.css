@@ -1,0 +1,35 @@
+:root {
+    --primary: #37517E;
+    --secondary: #AFB9CB;
+    --transition: all 0.6s;
+}
+
+.front{
+    background: var(--primary);
+}
+
+nav a {
+    color: white !important;
+}
+
+
+.front-para {
+    color: var(--secondary)
+}
+
+.image-anim{
+      animation: move 1s linear infinite alternate-reverse;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+
+
+
